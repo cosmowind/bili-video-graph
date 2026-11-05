@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>{{ metadata.title if metadata else '关系图谱' }}</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, "Microsoft YaHei", sans-serif; display: flex; overflow: hidden; }
+        #chart { flex: 1; height: 100vh; background: #1a1a2e; }
+        #sidebar { width: 380px; min-width: 380px; height: 100vh; background: #16213e; color: #eee; display: flex; flex-direction: column; border-left: 2px solid #0f3460; overflow-y: auto; font-size: 13px; }
+        #sidebar .sec { padding: 16px; border-bottom: 1px solid #0f3460; }
+        #sidebar h3 { font-size: 15px; color: #fff; margin-bottom: 10px; }
+        #sidebar h4 { font-size: 13px; color: #FBC02D; margin-bottom: 8px; }
+        .meta-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #0f3460; }
+        .meta-key { color: #888; }
+        .meta-val { color: #fff; text-align: right; max-width: 220px; word-break: break-all; }
+        .rank-item { padding: 7px 0; border-bottom: 1px solid #0f3460; cursor: pointer; display: flex; justify-content: space-between; }
+        .rank-item:hover { color: #FBC02D; }
+        .rank-item span:first-child { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 8px; }
+        .rank-item span:last-child { color: #4ECDC4; font-family: monospace; }
+        .tab { background: #0f3460; color: #999; border: none; padding: 5px 10px; margin-right: 4px; cursor: pointer; border-radius: 4px; font-size: 11px; }
+        .tab.active { background: #4ECDC4; color: #000; }
+        a { color: #4ECDC4; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+    <div id="sidebar">
+        <div class="sec">
+            <h3>👈 点击节点查看详情</h3>
+            <div id="nodeDetail"><p style="color:#666">点击图谱中的节点查看详情</p></div>
+        </div>
+        <div class="sec" style="flex:1">
+            <h4>🏆 TOP 10</h4>
+            <div style="margin-bottom:10px">
+                <button class="tab active" onclick="showRank('views', this)">总播放</button>
+                <button class="tab" onclick="showRank('likes', this)">赞/播比</button>
+                <button class="tab" onclick="showRank('coins', this)">币/播比</button>
+                <button class="tab" onclick="showRank('conv', this)">综合转化</button>
+            </div>
+            <div id="ranks" style="max-height:400px;overflow-y:auto"></div>
+        </div>
+        <div class="sec" style="font-size:11px;color:#555;text-align:center">{{ video_count }} 节点 · 单击查看 · 双击跳转</div>
+    </div>
+
+<script>
+const nodesData = {{ nodes|safe }};
+const edgesData = {{ edges|safe }};
+const config = {{ config|safe }};
+const videoDetails = {{ video_details|safe }};
+const rankings = {{ rankings|safe }};
+const metadata = {{ metadata|safe }};
+
+// 构建ECharts节点
+const chartNodes = nodesData.map(n => {
+    const group = config.node_types[n.group] || config.node_types.Video;
+    return {
+        id: n.id,
+        name: n.label,
+        symbolSize: n.size || 20,
+        category: n.group,
+        value: n.value || 0,
+        itemStyle: {
+            color: group.color?.background || '#4ECDC4',
+            borderColor: group.color?.border || '#1E88E5',
+            borderWidth: 2
+        },
+        label: { show: true, color: '#fff', fontSize: 11 },
+        title: n.label
+    };
+});
+
+// 构建ECharts边
+const chartLinks = edgesData.map(e => ({
+    source: e.from,
+    target: e.to,
+    lineStyle: { color: '#555', width: 1.5, curveness: 0.1 }
+}));
+
+// 分类
+const categories = Object.keys(config.node_types).map(name => ({ name }));
+
+const chart = echarts.init(document.getElementById('chart'), 'dark');
+chart.setOption({
+    backgroundColor: '#1a1a2e',
+    title: { text: metadata.title || '关系图谱', left: 16, top: 16, textStyle: { color: '#fff', fontSize: 16 } },
+    tooltip: {},
+    legend: [{ data: categories.map(c => c.name), bottom: 16, textStyle: { color: '#aaa' } }],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        force: { repulsion: 300, edgeLength: [80, 200], gravity: 0.1 },
+        draggable: true,
+        roam: true,
+        data: chartNodes,
+        links: chartLinks,
+        categories: categories,
+        emphasis: { focus: 'adjacency', lineStyle: { width: 3 } }
+    }]
+});
+
+// 点击事件
+chart.on('click', params => {
+    if (params.dataType === 'node') {
+        showNodeDetail(params.data.id);
+    }
+});
+
+chart.on('dblclick', params => {
+    if (params.dataType === 'node' && params.data.id.startsWith('BV')) {
+        window.open('https://www.bilibili.com/video/' + params.data.id, '_blank');
+    }
+});
+
+function showNodeDetail(nodeId) {
+    const d = videoDetails[nodeId];
+    const node = nodesData.find(n => n.id === nodeId);
+    let html = `<p style="font-size:14px;color:#fff;margin-bottom:10px">${node?.label || nodeId}</p>`;
+    if (d) {
+        html += `<div class="meta-row"><span class="meta-key">UP主</span><span class="meta-val">${d.up}</span></div>`;
+        html += `<div class="meta-row"><span class="meta-key">发布日期</span><span class="meta-val">${d.date}</span></div>`;
+        html += `<div class="meta-row"><span class="meta-key">播放</span><span class="meta-val">${d.views}</span></div>`;
+        html += `<div class="meta-row"><span class="meta-key">点赞</span><span class="meta-val" style="color:#E53935">${d.likes}</span></div>`;
+        html += `<div class="meta-row"><span class="meta-key">投币</span><span class="meta-val" style="color:#FBC02D">${d.coins}</span></div>`;
+        html += `<div class="meta-row"><span class="meta-key">收藏</span><span class="meta-val" style="color:#4CAF50">${d.favs}</span></div>`;
+        if (d.desc && d.desc !== 'nan') html += `<p style="margin-top:10px;color:#888;font-size:12px;line-height:1.5">${d.desc}</p>`;
+        html += `<p style="margin-top:10px"><a href="https://www.bilibili.com/video/${nodeId}" target="_blank">🔗 在B站打开</a></p>`;
+    } else if (node) {
+        // 非视频节点
+        html += `<div class="meta-row"><span class="meta-key">类型</span><span class="meta-val">${node.group}</span></div>`;
+        if (node.metadata) {
+            for (const [k, v] of Object.entries(node.metadata)) {
+                html += `<div class="meta-row"><span class="meta-key">${k}</span><span class="meta-val">${v}</span></div>`;
+            }
+        }
+    }
+    document.getElementById('nodeDetail').innerHTML = html;
+}
+
+function showRank(type, btn) {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const rankData = rankings[type] || [];
+    let html = '';
+    rankData.forEach(item => {
+        html += `<div class="rank-item" onclick="focusNode('${item.bvid}')"><span>${item.title}</span><span>${item.val}</span></div>`;
+    });
+    document.getElementById('ranks').innerHTML = html || '<p style="color:#666;text-align:center;padding:20px">暂无数据</p>';
+}
+
+function focusNode(nodeId) {
+    chart.dispatchAction({ type: 'focusNode', dataIndex: nodesData.findIndex(n => n.id === nodeId) });
+}
+
+// 初始化排行榜
+showRank('views', document.querySelector('.tab'));
+window.addEventListener('resize', () => chart.resize());
+</script>
+</body>
+</html>

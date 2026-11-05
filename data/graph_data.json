@@ -1,0 +1,1297 @@
+{
+  "nodes": [
+    {
+      "id": "core",
+      "label": "核心主题",
+      "group": "Core",
+      "shape": "dot",
+      "size": 65,
+      "font": {
+        "color": "white"
+      },
+      "title": "核心主题节点"
+    },
+    {
+      "id": "UP_徐小黄的正念空间",
+      "label": "徐小黄的正念空间",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 徐小黄的正念空间"
+    },
+    {
+      "id": "UP_传武太极",
+      "label": "传武太极",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 传武太极"
+    },
+    {
+      "id": "UP_武敏太极",
+      "label": "武敏太极",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 武敏太极"
+    },
+    {
+      "id": "UP_鱼蓼蓼",
+      "label": "鱼蓼蓼",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 鱼蓼蓼"
+    },
+    {
+      "id": "UP_武当凌云",
+      "label": "武当凌云",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 武当凌云"
+    },
+    {
+      "id": "UP_宙斯鱼",
+      "label": "宙斯鱼",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 宙斯鱼"
+    },
+    {
+      "id": "UP_长气玄青",
+      "label": "长气玄青",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 长气玄青"
+    },
+    {
+      "id": "UP_站桩冥想施老师",
+      "label": "站桩冥想施老师",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 站桩冥想施老师"
+    },
+    {
+      "id": "UP_形气神静修施元之",
+      "label": "形气神静修施元之",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 形气神静修施元之"
+    },
+    {
+      "id": "UP_bili_33707429608",
+      "label": "bili_33707429608",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: bili_33707429608"
+    },
+    {
+      "id": "UP_甘草慧养青阳子八段锦",
+      "label": "甘草慧养青阳子八段锦",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 甘草慧养青阳子八段锦"
+    },
+    {
+      "id": "UP_小侯的田园生活",
+      "label": "小侯的田园生活",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 小侯的田园生活"
+    },
+    {
+      "id": "UP_正气站桩学堂",
+      "label": "正气站桩学堂",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 正气站桩学堂"
+    },
+    {
+      "id": "UP_中医侦探",
+      "label": "中医侦探",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 中医侦探"
+    },
+    {
+      "id": "UP_上海-珊珊",
+      "label": "上海-珊珊",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 上海-珊珊"
+    },
+    {
+      "id": "UP_天惠书院",
+      "label": "天惠书院",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 天惠书院"
+    },
+    {
+      "id": "UP_极生美悟",
+      "label": "极生美悟",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 极生美悟"
+    },
+    {
+      "id": "UP_元气激活-无忌",
+      "label": "元气激活-无忌",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 元气激活-无忌"
+    },
+    {
+      "id": "UP_牛牛妈带你瘦",
+      "label": "牛牛妈带你瘦",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 牛牛妈带你瘦"
+    },
+    {
+      "id": "UP_不动心1",
+      "label": "不动心1",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 不动心1"
+    },
+    {
+      "id": "UP_小鹿智学",
+      "label": "小鹿智学",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 小鹿智学"
+    },
+    {
+      "id": "UP_衡恒1893",
+      "label": "衡恒1893",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 衡恒1893"
+    },
+    {
+      "id": "UP_欧阳春晓Aurora",
+      "label": "欧阳春晓Aurora",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 欧阳春晓Aurora"
+    },
+    {
+      "id": "UP_张玉全天罡内炼",
+      "label": "张玉全天罡内炼",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 张玉全天罡内炼"
+    },
+    {
+      "id": "UP_站桩施元之",
+      "label": "站桩施元之",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 站桩施元之"
+    },
+    {
+      "id": "UP_张玉全说养生",
+      "label": "张玉全说养生",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 张玉全说养生"
+    },
+    {
+      "id": "UP_女丹功",
+      "label": "女丹功",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 女丹功"
+    },
+    {
+      "id": "UP_淡泊并宁静",
+      "label": "淡泊并宁静",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 淡泊并宁静"
+    },
+    {
+      "id": "UP_健身教练Duke",
+      "label": "健身教练Duke",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: 健身教练Duke"
+    },
+    {
+      "id": "BV1aosrzQEdf",
+      "label": "黄庭站桩，提升精气神（张庆祥引导）",
+      "group": "Video",
+      "shape": "dot",
+      "size": 25,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 黄庭站桩，提升精气神（张庆祥引导）\nUP主: 徐小黄的正念空间\n日期: 2025-10-26\n播放: 5,427\n投币: 8\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1FzMfzgEmo",
+      "label": "练习站桩结束后的正确收功方法",
+      "group": "Video",
+      "shape": "dot",
+      "size": 26,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 练习站桩结束后的正确收功方法\nUP主: 传武太极\n日期: 2025-07-13\n播放: 6,242\n投币: 11\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1ML3rzCExS",
+      "label": "🔥零基础也能学！每天10分钟站桩，打通气...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 22,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 🔥零基础也能学！每天10分钟站桩，打通气血｜新手跟练版，从入门到上瘾的秘诀全在这！\nUP主: 武敏太极\n日期: 2025-07-07\n播放: 2,281\n投币: 10\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1ne41137vc",
+      "label": "站桩的奥秘，先了解，再体会，从这里开始逐...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 50,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩的奥秘，先了解，再体会，从这里开始逐步走入桩的妙境\nUP主: 鱼蓼蓼\n日期: 2022-09-06\n播放: 195,432\n投币: 1155\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV12F411r7Jo",
+      "label": "新手必看！从零开始，轻松掌握站桩的窍门与...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 50,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 新手必看！从零开始，轻松掌握站桩的窍门与技巧！\nUP主: 武当凌云\n日期: 2023-08-28\n播放: 250,427\n投币: 3345\n双击跳转B站",
+      "borderWidth": 2,
+      "borderColor": "#4CAF50"
+    },
+    {
+      "id": "BV1TM4y1N7oR",
+      "label": "每天站桩10分钟，充盈全身气血，增强体力...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 31,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 每天站桩10分钟，充盈全身气血，增强体力养心神\nUP主: 宙斯鱼\n日期: 2021-07-24\n播放: 11,320\n投币: 17\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1BE411n7gV",
+      "label": "武当凌云道长详解站桩，百练不如一站，站桩...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 50,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 武当凌云道长详解站桩，百练不如一站，站桩三十分钟，除去身体病痛。\nUP主: 长气玄青\n日期: 2020-02-28\n播放: 575,998\n投币: 2340\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1QRZiBeEcu",
+      "label": "站桩站多久合适，千万别熬桩！#站桩 #站...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩站多久合适，千万别熬桩！#站桩 #站桩教学 #站桩养生 #居家锻炼\nUP主: 站桩冥想施老师\n日期: 2026-02-19\n播放: 362\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1PCfTBVEUg",
+      "label": "站桩不能瞎站，教你正确站桩#站桩 #站桩...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩不能瞎站，教你正确站桩#站桩 #站桩教学 #站桩养生 #居家锻炼\nUP主: 形气神静修施元之\n日期: 2026-02-23\n播放: 269\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1hS421A7eD",
+      "label": "【自用】站桩 道家混元桩20min",
+      "group": "Video",
+      "shape": "dot",
+      "size": 31,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 【自用】站桩 道家混元桩20min\nUP主: bili_33707429608\n日期: 2024-03-01\n播放: 11,107\n投币: 28\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1fWcvz2EEo",
+      "label": "站桩带练 每天10分钟，身体结实下盘稳了",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩带练 每天10分钟，身体结实下盘稳了\nUP主: 甘草慧养青阳子八段锦\n日期: 2026-02-26\n播放: 753\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1qa4y1m7zp",
+      "label": "15分钟站桩跟练版，提升精气。2024全...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 50,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 15分钟站桩跟练版，提升精气。2024全年元气满满，干啥都能成！养生搭子快快来这里打卡\nUP主: 小侯的田园生活\n日期: 2024-01-10\n播放: 149,747\n投币: 396\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1CN411M7UH",
+      "label": "有好多师傅就算会都未必肯教的站桩秘诀",
+      "group": "Video",
+      "shape": "dot",
+      "size": 27,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 有好多师傅就算会都未必肯教的站桩秘诀\nUP主: 正气站桩学堂\n日期: 2023-11-13\n播放: 7,315\n投币: 59\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV16qtZznE4G",
+      "label": "9分钟吃透站桩",
+      "group": "Video",
+      "shape": "dot",
+      "size": 21,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 9分钟吃透站桩\nUP主: 传武太极\n日期: 2025-08-12\n播放: 1,585\n投币: 7\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1ha41137RJ",
+      "label": "每天一万步和站桩一小时？哪个更能锻炼身体...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 50,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 每天一万步和站桩一小时？哪个更能锻炼身体！\nUP主: 中医侦探\n日期: 2022-09-05\n播放: 43,040\n投币: 62\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1B1b3zpEnz",
+      "label": "民间高手讲解站桩的核心要领",
+      "group": "Video",
+      "shape": "dot",
+      "size": 33,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 民间高手讲解站桩的核心要领\nUP主: 传武太极\n日期: 2025-08-11\n播放: 13,197\n投币: 105\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1QGwXeaEeA",
+      "label": "站桩 戴师嗣口令",
+      "group": "Video",
+      "shape": "dot",
+      "size": 23,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩 戴师嗣口令\nUP主: 上海-珊珊\n日期: 2025-02-17\n播放: 3,574\n投币: 2\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1VGAZz3EN3",
+      "label": "2分钟学会收功，站桩练通要过2点1关",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 2分钟学会收功，站桩练通要过2点1关\nUP主: 天惠书院\n日期: 2026-03-04\n播放: 32\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1Z64y1N7ut",
+      "label": "站桩|浑圆桩15分钟口令跟练版",
+      "group": "Video",
+      "shape": "dot",
+      "size": 31,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩|浑圆桩15分钟口令跟练版\nUP主: 极生美悟\n日期: 2024-01-07\n播放: 11,396\n投币: 10\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV15pdyYwEY6",
+      "label": "不传之秘—站桩",
+      "group": "Video",
+      "shape": "dot",
+      "size": 29,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 不传之秘—站桩\nUP主: 传武太极\n日期: 2025-04-11\n播放: 9,345\n投币: 35\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1UVPNzXEkA",
+      "label": "站桩的不同",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩的不同\nUP主: 元气激活-无忌\n日期: 2026-03-04\n播放: 77\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1PYmnYZE1B",
+      "label": "坚持每天站桩15分钟，提升精气神，滋养脾...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 22,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 坚持每天站桩15分钟，提升精气神，滋养脾胃，调理气血，坚持打卡哦！\nUP主: 牛牛妈带你瘦\n日期: 2024-10-15\n播放: 2,507\n投币: 1\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1SVZeB9EEX",
+      "label": "站桩   太极桩、无极桩站姿、意守等注意...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 21,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩   太极桩、无极桩站姿、意守等注意事项（上）\nUP主: 不动心1\n日期: 2026-02-20\n播放: 1,561\n投币: 17\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1iMPFzQEPv",
+      "label": "（全223讲）导引站桩·年度综合课（最新...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: （全223讲）导引站桩·年度综合课（最新版元气导引养元站桩课）\nUP主: 小鹿智学\n日期: 2026-03-04\n播放: 20\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1Nr42137XZ",
+      "label": "站桩进阶版60分钟跟练版，此站桩视频太长...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 32,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩进阶版60分钟跟练版，此站桩视频太长，请量力而行\nUP主: 极生美悟\n日期: 2024-04-23\n播放: 12,793\n投币: 17\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1ipAozyETe",
+      "label": "站桩最重要的两个充电器要插好。#站桩 #...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩最重要的两个充电器要插好。#站桩 #骨正筋柔 #浑圆桩\nUP主: 衡恒1893\n日期: 2026-03-03\n播放: 282\n投币: 4\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1G5jgzrEUF",
+      "label": "说一个从整体下手纠正全身体态的基础操作｜...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 50,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 说一个从整体下手纠正全身体态的基础操作｜附理论依据+动作详解\nUP主: 欧阳春晓Aurora\n日期: 2025-05-25\n播放: 672,446\n投币: 3952\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1xJPjzEEZS",
+      "label": "站桩收功的正确姿势",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩收功的正确姿势\nUP主: 张玉全天罡内炼\n日期: 2026-03-03\n播放: 664\n投币: 2\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1YzPvz7Eua",
+      "label": "线下研修课，系统学导引站桩",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 线下研修课，系统学导引站桩\nUP主: 站桩施元之\n日期: 2026-03-04\n播放: 66\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1MRPjzsELe",
+      "label": "站桩的呼吸方法",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩的呼吸方法\nUP主: 张玉全说养生\n日期: 2026-03-03\n播放: 128\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1H2PPzGEFW",
+      "label": "揭露站桩真相",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 揭露站桩真相\nUP主: 女丹功\n日期: 2026-03-04\n播放: 14\n投币: 0\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1LvijBcEaq",
+      "label": "站桩练习——引气归元桩",
+      "group": "Video",
+      "shape": "dot",
+      "size": 20,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 站桩练习——引气归元桩\nUP主: 淡泊并宁静\n日期: 2026-01-04\n播放: 596\n投币: 2\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1uBHJzyEiC",
+      "label": "【站桩教程】百练不如一站！养气血，通经络...",
+      "group": "Video",
+      "shape": "dot",
+      "size": 46,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 【站桩教程】百练不如一站！养气血，通经络，健身强体，调整体态\nUP主: 健身教练Duke\n日期: 2025-10-01\n播放: 26,905\n投币: 447\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "core",
+      "to": "UP_徐小黄的正念空间",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_传武太极",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_武敏太极",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_鱼蓼蓼",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_武当凌云",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_宙斯鱼",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_长气玄青",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_站桩冥想施老师",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_形气神静修施元之",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_bili_33707429608",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_甘草慧养青阳子八段锦",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_小侯的田园生活",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_正气站桩学堂",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_中医侦探",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_上海-珊珊",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_天惠书院",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_极生美悟",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_元气激活-无忌",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_牛牛妈带你瘦",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_不动心1",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_小鹿智学",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_衡恒1893",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_欧阳春晓Aurora",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_张玉全天罡内炼",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_站桩施元之",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_张玉全说养生",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_女丹功",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_淡泊并宁静",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_健身教练Duke",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "UP_徐小黄的正念空间",
+      "to": "BV1aosrzQEdf",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_传武太极",
+      "to": "BV1FzMfzgEmo",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_武敏太极",
+      "to": "BV1ML3rzCExS",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_鱼蓼蓼",
+      "to": "BV1ne41137vc",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_武当凌云",
+      "to": "BV12F411r7Jo",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_宙斯鱼",
+      "to": "BV1TM4y1N7oR",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_长气玄青",
+      "to": "BV1BE411n7gV",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_站桩冥想施老师",
+      "to": "BV1QRZiBeEcu",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_形气神静修施元之",
+      "to": "BV1PCfTBVEUg",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_bili_33707429608",
+      "to": "BV1hS421A7eD",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_甘草慧养青阳子八段锦",
+      "to": "BV1fWcvz2EEo",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_小侯的田园生活",
+      "to": "BV1qa4y1m7zp",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_正气站桩学堂",
+      "to": "BV1CN411M7UH",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_传武太极",
+      "to": "BV16qtZznE4G",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_中医侦探",
+      "to": "BV1ha41137RJ",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_传武太极",
+      "to": "BV1B1b3zpEnz",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_上海-珊珊",
+      "to": "BV1QGwXeaEeA",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_天惠书院",
+      "to": "BV1VGAZz3EN3",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_极生美悟",
+      "to": "BV1Z64y1N7ut",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_传武太极",
+      "to": "BV15pdyYwEY6",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_元气激活-无忌",
+      "to": "BV1UVPNzXEkA",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_牛牛妈带你瘦",
+      "to": "BV1PYmnYZE1B",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_不动心1",
+      "to": "BV1SVZeB9EEX",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_小鹿智学",
+      "to": "BV1iMPFzQEPv",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_极生美悟",
+      "to": "BV1Nr42137XZ",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_衡恒1893",
+      "to": "BV1ipAozyETe",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_欧阳春晓Aurora",
+      "to": "BV1G5jgzrEUF",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_张玉全天罡内炼",
+      "to": "BV1xJPjzEEZS",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_站桩施元之",
+      "to": "BV1YzPvz7Eua",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_张玉全说养生",
+      "to": "BV1MRPjzsELe",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_女丹功",
+      "to": "BV1H2PPzGEFW",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_淡泊并宁静",
+      "to": "BV1LvijBcEaq",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_健身教练Duke",
+      "to": "BV1uBHJzyEiC",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "BV1FzMfzgEmo",
+      "to": "BV16qtZznE4G",
+      "width": 0.5,
+      "color": {
+        "opacity": 0.2
+      },
+      "dashes": true
+    },
+    {
+      "from": "BV16qtZznE4G",
+      "to": "BV1B1b3zpEnz",
+      "width": 0.5,
+      "color": {
+        "opacity": 0.2
+      },
+      "dashes": true
+    },
+    {
+      "from": "BV1B1b3zpEnz",
+      "to": "BV15pdyYwEY6",
+      "width": 0.5,
+      "color": {
+        "opacity": 0.2
+      },
+      "dashes": true
+    },
+    {
+      "from": "BV1Z64y1N7ut",
+      "to": "BV1Nr42137XZ",
+      "width": 0.5,
+      "color": {
+        "opacity": 0.2
+      },
+      "dashes": true
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>B站视频关系图谱</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        #mynetwork {
+            width: 100%;
+            height: 95vh;
+            background-color: #1a1a1a;
+            border: 1px solid lightgray;
+        }
+        
+        #loadingBar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 95vh;
+            background-color: rgba(200,200,200,0.8);
+            transition: all 0.5s ease;
+            opacity: 1;
+        }
+        
+        #bar {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 11px;
+            border: 2px solid rgba(30,30,30,0.05);
+            background: rgb(0, 173, 246);
+            box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+        }
+        
+        #border {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 23px;
+            box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+        
+        #text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-left: 270px;
+            font-size: 22px;
+            color: #000000;
+        }
+        
+        .outerBorder {
+            position: relative;
+            width: 600px;
+            height: 44px;
+            margin: auto;
+            border: 8px solid rgba(0,0,0,0.1);
+            background: rgb(252,252,252);
+            border-radius: 72px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card" style="width: 100%">
+        <div id="select-menu" class="card-header">
+            <div class="row no-gutters">
+                <div class="col-10 pb-2">
+                    <select class="form-select" onchange="selectNode(this.value);" id="select-node">
+                        <option selected>选择节点...</option>
+                        {% for option in node_options %}
+                        <option value="{{ option.value }}">{{ option.label }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="resetSelection();">重置选择</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mynetwork" class="card-body"></div>
+    </div>
+
+    <div id="loadingBar">
+        <div class="outerBorder">
+            <div id="text">0%</div>
+            <div id="border">
+                <div id="bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var edges;
+        var nodes;
+        var allNodes;
+        var allEdges;
+        var network;
+        var container;
+        var options, data;
+        var highlightActive = false;
+
+        function drawGraph() {
+            container = document.getElementById('mynetwork');
+
+            // 解析节点和边数据
+            nodes = new vis.DataSet({{ nodes|safe }});
+            edges = new vis.DataSet({{ edges|safe }});
+
+            allNodes = nodes.get({ returnType: "Object" });
+            allEdges = edges.get({ returnType: "Object" });
+
+            data = {
+                nodes: nodes,
+                edges: edges
+            };
+
+            options = {
+                nodes: {
+                    borderWidth: 2,
+                    shadow: true,
+                    font: {
+                        size: 14,
+                        color: 'white'
+                    }
+                },
+                edges: {
+                    width: 1,
+                    shadow: true,
+                    smooth: {
+                        type: 'continuous'
+                    }
+                },
+                physics: {
+                    stabilization: {
+                        enabled: true,
+                        iterations: 200
+                    },
+                    barnesHut: {
+                        gravitationalConstant: -8000,
+                        springConstant: 0.04,
+                        springLength: 95
+                    }
+                },
+                interaction: {
+                    hover: true,
+                    tooltipDelay: 200,
+                    hideEdgesOnDrag: true
+                },
+                groups: {
+                    Core: {
+                        color: { background: '#FF6B6B', border: '#C92A2A' }
+                    },
+                    Video: {
+                        color: { background: '#4ECDC4', border: '#1E88E5' }
+                    },
+                    UP: {
+                        color: { background: '#95E1D3', border: '#38A169' }
+                    }
+                }
+            };
+
+            network = new vis.Network(container, data, options);
+
+            // 加载进度条
+            network.on("stabilizationProgress", function(params) {
+                var maxWidth = 496;
+                var minWidth = 20;
+                var widthFactor = params.iterations / params.total;
+                var width = Math.max(minWidth, maxWidth * widthFactor);
+
+                document.getElementById('bar').style.width = width + 'px';
+                document.getElementById('text').innerHTML = Math.round(widthFactor * 100) + '%';
+            });
+
+            network.once("stabilizationIterationsDone", function() {
+                document.getElementById('text').innerHTML = '100%';
+                document.getElementById('bar').style.width = '496px';
+                document.getElementById('loadingBar').style.opacity = 0;
+                setTimeout(function() {
+                    document.getElementById('loadingBar').style.display = 'none';
+                }, 500);
+            });
+
+            // 点击节点高亮
+            network.on("click", neighbourhoodHighlight);
+            
+            // 双击跳转B站
+            network.on("doubleClick", function(params) {
+                if (params.nodes.length > 0) {
+                    var nodeId = params.nodes[0];
+                    if (nodeId.startsWith('BV')) {
+                        window.open('https://www.bilibili.com/video/' + nodeId, '_blank');
+                    }
+                }
+            });
+        }
+
+        function neighbourhoodHighlight(params) {
+            allNodes = nodes.get({ returnType: "Object" });
+            allEdges = edges.get({ returnType: "Object" });
+
+            if (params.nodes.length > 0) {
+                highlightActive = true;
+                var selectedNode = params.nodes[0];
+                var degrees = 2;
+
+                var connectedNodes = network.getConnectedNodes(selectedNode);
+                var allConnectedNodes = [];
+
+                for (var i = 1; i < degrees; i++) {
+                    for (var j = 0; j < connectedNodes.length; j++) {
+                        allConnectedNodes = allConnectedNodes.concat(
+                            network.getConnectedNodes(connectedNodes[j])
+                        );
+                    }
+                }
+
+                allConnectedNodes = allConnectedNodes.concat(connectedNodes);
+
+                for (var nodeId in allNodes) {
+                    allNodes[nodeId].color = 'rgba(200,200,200,0.5)';
+                    if (allConnectedNodes.indexOf(nodeId) > -1) {
+                        allNodes[nodeId].color = undefined;
+                    }
+                    if (nodeId === selectedNode) {
+                        allNodes[nodeId].color = undefined;
+                    }
+                }
+
+                var updateArray = [];
+                for (nodeId in allNodes) {
+                    if (allNodes.hasOwnProperty(nodeId)) {
+                        updateArray.push(allNodes[nodeId]);
+                    }
+                }
+                nodes.update(updateArray);
+            } else if (highlightActive === true) {
+                resetSelection();
+            }
+        }
+
+        function selectNode(nodeId) {
+            if (nodeId && nodeId !== '选择节点...') {
+                network.selectNodes([nodeId]);
+                network.focus(nodeId, {
+                    scale: 1.5,
+                    animation: true
+                });
+                neighbourhoodHighlight({ nodes: [nodeId] });
+            }
+        }
+
+        function resetSelection() {
+            highlightActive = false;
+            for (var nodeId in allNodes) {
+                allNodes[nodeId].color = undefined;
+            }
+            var updateArray = [];
+            for (nodeId in allNodes) {
+                if (allNodes.hasOwnProperty(nodeId)) {
+                    updateArray.push(allNodes[nodeId]);
+                }
+            }
+            nodes.update(updateArray);
+            network.fit();
+        }
+
+        window.addEventListener("load", function() {
+            drawGraph();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>B站视频关系图谱 - 增强版</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex !important;
+            flex-direction: row !important;
+            overflow: hidden !important;
+        }
+        
+        .card {
+            flex: 1 !important;
+            min-width: 0 !important;
+        }
+        
+        #mynetwork {
+            width: 100%;
+            height: 100vh !important;
+            background-color: #1a1a1a;
+            border: 1px solid lightgray;
+        }
+        
+        /* Sidebar Styles */
+        #djh-sidebar {
+            width: 380px;
+            min-width: 380px;
+            height: 100vh;
+            background: #1a1a2e;
+            color: #eee;
+            display: flex;
+            flex-direction: column;
+            border-left: 2px solid #333;
+            overflow-y: auto;
+            font-family: -apple-system, "Microsoft YaHei", sans-serif;
+            font-size: 13px;
+            z-index: 999;
+        }
+        
+        #djh-sidebar .sec {
+            padding: 14px;
+            border-bottom: 1px solid #2a2a3e;
+        }
+        
+        #djh-sidebar h3 {
+            margin: 0 0 10px 0;
+            font-size: 15px;
+            color: #fff;
+            line-height: 1.4;
+        }
+        
+        #djh-sidebar h4 {
+            margin: 0 0 10px 0;
+            font-size: 13px;
+            color: #FBC02D;
+        }
+        
+        .djh-cover {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            object-fit: cover;
+            cursor: pointer;
+            display: none;
+            background: #000;
+        }
+        
+        .djh-placeholder {
+            width: 100%;
+            height: 200px;
+            border: 2px dashed #333;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .djh-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            margin-top: 12px;
+        }
+        
+        .djh-stats div {
+            padding: 6px 8px;
+            background: #222;
+            border-radius: 4px;
+        }
+        
+        .djh-badge {
+            display: inline-block;
+            background: #222;
+            border: 1px solid #444;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: #aaa;
+            margin-right: 4px;
+            margin-bottom: 4px;
+        }
+        
+        .djh-desc {
+            font-size: 12px;
+            line-height: 1.5;
+            color: #888;
+            margin-top: 10px;
+            word-break: break-all;
+        }
+        
+        .djh-open-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #1E88E5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        
+        .djh-open-btn:hover {
+            background: #1565C0;
+        }
+        
+        .djh-tab {
+            background: #222;
+            color: #999;
+            border: 1px solid #444;
+            padding: 5px 10px;
+            margin-right: 4px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 11px;
+            transition: all 0.2s;
+        }
+        
+        .djh-tab.active {
+            background: #1E88E5;
+            color: white;
+            border-color: #1E88E5;
+        }
+        
+        .djh-rank-item {
+            padding: 7px 0;
+            border-bottom: 1px solid #222;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .djh-rank-item:hover {
+            color: #FBC02D;
+            background: rgba(255,255,255,0.03);
+        }
+        
+        .djh-rank-item span:first-child {
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 8px;
+        }
+        
+        .djh-rank-item span:last-child {
+            color: #1E88E5;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        
+        #loadingBar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(200,200,200,0.8);
+            transition: all 0.5s ease;
+            opacity: 1;
+            z-index: 1000;
+        }
+        
+        #bar {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 11px;
+            border: 2px solid rgba(30,30,30,0.05);
+            background: rgb(0, 173, 246);
+            box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+        }
+        
+        #border {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 23px;
+            box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+        
+        #text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-left: 270px;
+            font-size: 22px;
+            color: #000000;
+        }
+        
+        .outerBorder {
+            position: relative;
+            width: 600px;
+            height: 44px;
+            margin: auto;
+            border: 8px solid rgba(0,0,0,0.1);
+            background: rgb(252,252,252);
+            border-radius: 72px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card" style="width: 100%">
+        <div id="select-menu" class="card-header">
+            <div class="row no-gutters">
+                <div class="col-10 pb-2">
+                    <select class="form-select" onchange="selectNode(this.value);" id="select-node">
+                        <option selected>选择节点...</option>
+                        {% for option in node_options %}
+                        <option value="{{ option.value }}">{{ option.label }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="resetSelection();">重置选择</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mynetwork" class="card-body"></div>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="djh-sidebar">
+        <div class="sec">
+            <h3 id="djh-title">👈 点击左侧节点查看视频</h3>
+            <img id="djh-cover" class="djh-cover" onclick="djhOpenVideo()" />
+            <div id="djh-ph" class="djh-placeholder">从左侧图谱中点击任一视频节点<br>此处将加载视频封面与详情</div>
+            <div id="djh-meta" style="display:none;">
+                <div style="margin-top:10px;">
+                    <span class="djh-badge" id="djh-up"></span>
+                    <span class="djh-badge" id="djh-date"></span>
+                    <span class="djh-badge" id="djh-sub"></span>
+                </div>
+                <div class="djh-stats">
+                    <div style="color:#1E88E5">▶ <span id="djh-views"></span></div>
+                    <div style="color:#E53935">❤ <span id="djh-likes"></span></div>
+                    <div style="color:#FBC02D">🪙 <span id="djh-coins"></span></div>
+                    <div style="color:#4CAF50">⭐ <span id="djh-favs"></span></div>
+                </div>
+                <div class="djh-desc" id="djh-desc"></div>
+                <a id="djh-link" class="djh-open-btn" href="#" target="_blank">🔗 在B站打开此视频</a>
+            </div>
+        </div>
+
+        <div class="sec" style="flex-grow: 1;">
+            <h4>🏆 视频风向标 TOP 10</h4>
+            <div style="margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 4px;">
+                <button class="djh-tab active" onclick="djhShowRank('views', this)">总播放</button>
+                <button class="djh-tab" onclick="djhShowRank('likes', this)">赞/播比</button>
+                <button class="djh-tab" onclick="djhShowRank('coins', this)">币/播比</button>
+                <button class="djh-tab" onclick="djhShowRank('conv', this)">综合转化</button>
+            </div>
+            <div id="djh-ranks" style="max-height: 380px; overflow-y: auto;"></div>
+        </div>
+
+        <div class="sec" style="font-size: 11px; color: #555; text-align: center; padding: 8px;">
+            {{ video_count }} 视频全域 · 单击查看 · 双击跳转B站
+        </div>
+    </div>
+
+    <div id="loadingBar">
+        <div class="outerBorder">
+            <div id="text">0%</div>
+            <div id="border">
+                <div id="bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var edges;
+        var nodes;
+        var allNodes;
+        var allEdges;
+        var network;
+        var container;
+        var options, data;
+        var highlightActive = false;
+
+        // Sidebar data
+        var djhVData = {{ video_details|safe }};
+        var djhRData = {{ rankings|safe }};
+        var djhCurrentBV = null;
+
+        function drawGraph() {
+            container = document.getElementById('mynetwork');
+
+            // 解析节点和边数据
+            nodes = new vis.DataSet({{ nodes|safe }});
+            edges = new vis.DataSet({{ edges|safe }});
+
+            allNodes = nodes.get({ returnType: "Object" });
+            allEdges = edges.get({ returnType: "Object" });
+
+            data = {
+                nodes: nodes,
+                edges: edges
+            };
+
+            options = {
+                nodes: {
+                    borderWidth: 2,
+                    shadow: true,
+                    font: {
+                        size: 14,
+                        color: 'white'
+                    }
+                },
+                edges: {
+                    width: 1,
+                    shadow: true,
+                    smooth: {
+                        type: 'continuous'
+                    }
+                },
+                physics: {
+                    stabilization: {
+                        enabled: true,
+                        iterations: 200
+                    },
+                    barnesHut: {
+                        gravitationalConstant: -8000,
+                        springConstant: 0.04,
+                        springLength: 95
+                    }
+                },
+                interaction: {
+                    hover: true,
+                    tooltipDelay: 200,
+                    hideEdgesOnDrag: true
+                },
+                groups: {
+                    Core: {
+                        color: { background: '#FF6B6B', border: '#C92A2A' }
+                    },
+                    Video: {
+                        color: { background: '#4ECDC4', border: '#1E88E5' }
+                    },
+                    UP: {
+                        color: { background: '#95E1D3', border: '#38A169' }
+                    }
+                }
+            };
+
+            network = new vis.Network(container, data, options);
+
+            // 加载进度条
+            network.on("stabilizationProgress", function(params) {
+                var maxWidth = 496;
+                var minWidth = 20;
+                var widthFactor = params.iterations / params.total;
+                var width = Math.max(minWidth, maxWidth * widthFactor);
+
+                document.getElementById('bar').style.width = width + 'px';
+                document.getElementById('text').innerHTML = Math.round(widthFactor * 100) + '%';
+            });
+
+            network.once("stabilizationIterationsDone", function() {
+                document.getElementById('text').innerHTML = '100%';
+                document.getElementById('bar').style.width = '496px';
+                document.getElementById('loadingBar').style.opacity = 0;
+                setTimeout(function() {
+                    document.getElementById('loadingBar').style.display = 'none';
+                }, 500);
+            });
+
+            // 点击节点高亮和更新侧边栏
+            network.on("click", function(params) {
+                neighbourhoodHighlight(params);
+                if (params.nodes.length > 0) {
+                    var nodeId = params.nodes[0];
+                    if (nodeId.startsWith('BV')) {
+                        djhUpdateSidebar(nodeId);
+                    }
+                }
+            });
+            
+            // 双击跳转B站
+            network.on("doubleClick", function(params) {
+                if (params.nodes.length > 0) {
+                    var nodeId = params.nodes[0];
+                    if (nodeId.startsWith('BV')) {
+                        window.open('https://www.bilibili.com/video/' + nodeId, '_blank');
+                    }
+                }
+            });
+        }
+
+        function neighbourhoodHighlight(params) {
+            allNodes = nodes.get({ returnType: "Object" });
+            allEdges = edges.get({ returnType: "Object" });
+
+            if (params.nodes.length > 0) {
+                highlightActive = true;
+                var selectedNode = params.nodes[0];
+                var degrees = 2;
+
+                var connectedNodes = network.getConnectedNodes(selectedNode);
+                var allConnectedNodes = [];
+
+                for (var i = 1; i < degrees; i++) {
+                    for (var j = 0; j < connectedNodes.length; j++) {
+                        allConnectedNodes = allConnectedNodes.concat(
+                            network.getConnectedNodes(connectedNodes[j])
+                        );
+                    }
+                }
+
+                allConnectedNodes = allConnectedNodes.concat(connectedNodes);
+
+                for (var nodeId in allNodes) {
+                    allNodes[nodeId].color = 'rgba(200,200,200,0.5)';
+                    if (allConnectedNodes.indexOf(nodeId) > -1) {
+                        allNodes[nodeId].color = undefined;
+                    }
+                    if (nodeId === selectedNode) {
+                        allNodes[nodeId].color = undefined;
+                    }
+                }
+
+                var updateArray = [];
+                for (nodeId in allNodes) {
+                    if (allNodes.hasOwnProperty(nodeId)) {
+                        updateArray.push(allNodes[nodeId]);
+                    }
+                }
+                nodes.update(updateArray);
+            } else if (highlightActive === true) {
+                resetSelection();
+            }
+        }
+
+        function selectNode(nodeId) {
+            if (nodeId && nodeId !== '选择节点...') {
+                network.selectNodes([nodeId]);
+                network.focus(nodeId, {
+                    scale: 1.5,
+                    animation: true
+                });
+                neighbourhoodHighlight({ nodes: [nodeId] });
+                if (nodeId.startsWith('BV')) {
+                    djhUpdateSidebar(nodeId);
+                }
+            }
+        }
+
+        function resetSelection() {
+            highlightActive = false;
+            for (var nodeId in allNodes) {
+                allNodes[nodeId].color = undefined;
+            }
+            var updateArray = [];
+            for (nodeId in allNodes) {
+                if (allNodes.hasOwnProperty(nodeId)) {
+                    updateArray.push(allNodes[nodeId]);
+                }
+            }
+            nodes.update(updateArray);
+            network.fit();
+        }
+
+        // Sidebar functions
+        function djhOpenVideo() {
+            if (djhCurrentBV) {
+                window.open("https://www.bilibili.com/video/" + djhCurrentBV, '_blank');
+            }
+        }
+
+        function djhShowRank(type, btn) {
+            document.querySelectorAll('.djh-tab').forEach(function(b) {
+                b.classList.remove('active');
+            });
+            btn.classList.add('active');
+            
+            var rankData = djhRData[type];
+            var html = '';
+            if (rankData && rankData.length > 0) {
+                rankData.forEach(function(item) {
+                    html += '<div class="djh-rank-item" onclick="selectNode(\'' + item.bvid + '\')">';
+                    html += '<span>' + item.title + '</span>';
+                    html += '<span>' + item.val + '</span>';
+                    html += '</div>';
+                });
+            } else {
+                html = '<div style="text-align:center;color:#666;padding:20px;">暂无数据</div>';
+            }
+            document.getElementById('djh-ranks').innerHTML = html;
+        }
+
+        function djhUpdateSidebar(bvid) {
+            var d = djhVData[bvid];
+            if (!d) return;
+            
+            djhCurrentBV = bvid;
+            
+            // 更新标题
+            document.getElementById('djh-title').textContent = d.title;
+            
+            // 显示封面（B站封面URL格式）
+            var coverImg = document.getElementById('djh-cover');
+            coverImg.src = 'https://i0.hdslb.com/bfs/archive/' + bvid + '.jpg';
+            coverImg.style.display = 'block';
+            coverImg.onerror = function() {
+                this.style.display = 'none';
+            };
+            
+            // 隐藏占位符
+            document.getElementById('djh-ph').style.display = 'none';
+            
+            // 显示元数据
+            document.getElementById('djh-meta').style.display = 'block';
+            document.getElementById('djh-up').textContent = 'UP: ' + d.up;
+            document.getElementById('djh-date').textContent = d.date;
+            document.getElementById('djh-sub').textContent = '字幕: ' + d.subtitle;
+            
+            // 更新统计数据
+            document.getElementById('djh-views').textContent = d.views;
+            document.getElementById('djh-likes').textContent = d.likes;
+            document.getElementById('djh-coins').textContent = d.coins;
+            document.getElementById('djh-favs').textContent = d.favs;
+            
+            // 更新描述
+            document.getElementById('djh-desc').textContent = d.desc || '暂无简介';
+            
+            // 更新链接
+            document.getElementById('djh-link').href = 'https://www.bilibili.com/video/' + bvid;
+        }
+
+        window.addEventListener("load", function() {
+            drawGraph();
+            // 初始化排行榜
+            djhShowRank('views', document.querySelector('.djh-tab'));
+        });
+    </script>
+</body>
+</html>

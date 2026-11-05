@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "core",
+      "label": "核心主题",
+      "group": "Core",
+      "shape": "dot",
+      "size": 65,
+      "font": {
+        "color": "white"
+      },
+      "title": "核心主题节点"
+    },
+    {
+      "id": "UP_UP主A",
+      "label": "UP主A",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: UP主A"
+    },
+    {
+      "id": "UP_UP主B",
+      "label": "UP主B",
+      "group": "UP",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "👤 UP主: UP主B"
+    },
+    {
+      "id": "BV1234567890",
+      "label": "示例视频1",
+      "group": "Video",
+      "shape": "dot",
+      "size": 30,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 示例视频1\nUP主: UP主A\n日期: 2024-01-01\n播放: 10,000\n投币: 500\n双击跳转B站",
+      "borderWidth": 2,
+      "borderColor": "#4CAF50"
+    },
+    {
+      "id": "BV0987654321",
+      "label": "示例视频2",
+      "group": "Video",
+      "shape": "dot",
+      "size": 40,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 示例视频2\nUP主: UP主B\n日期: 2024-01-02\n播放: 20,000\n投币: 800\n双击跳转B站",
+      "borderWidth": 1,
+      "borderColor": "#1E88E5"
+    },
+    {
+      "id": "BV1111111111",
+      "label": "示例视频3",
+      "group": "Video",
+      "shape": "dot",
+      "size": 35,
+      "font": {
+        "color": "white"
+      },
+      "title": "标题: 示例视频3\nUP主: UP主A\n日期: 2024-01-03\n播放: 15,000\n投币: 600\n双击跳转B站",
+      "borderWidth": 2,
+      "borderColor": "#4CAF50"
+    }
+  ],
+  "edges": [
+    {
+      "from": "core",
+      "to": "UP_UP主A",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "core",
+      "to": "UP_UP主B",
+      "width": 2,
+      "color": {
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "UP_UP主A",
+      "to": "BV1234567890",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_UP主B",
+      "to": "BV0987654321",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "UP_UP主A",
+      "to": "BV1111111111",
+      "width": 1,
+      "color": {
+        "opacity": 0.4
+      }
+    },
+    {
+      "from": "BV1234567890",
+      "to": "BV1111111111",
+      "width": 0.5,
+      "color": {
+        "opacity": 0.2
+      },
+      "dashes": true
+    }
+  ]
+}

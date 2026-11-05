@@ -1,0 +1,142 @@
+{
+  "node_types": {
+    "Core": {
+      "shape": "dot",
+      "size": 30,
+      "color": {
+        "background": "#FF6B6B",
+        "border": "#C92A2A"
+      },
+      "font": {
+        "size": 16,
+        "color": "#ffffff",
+        "bold": true
+      },
+      "description": "核心主题节点"
+    },
+    "Video": {
+      "shape": "dot",
+      "size_field": "play_count",
+      "size_min": 15,
+      "size_max": 40,
+      "size_scale": "log",
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "color_subtitle": {
+        "background": "#4ECDC4",
+        "border": "#38A169",
+        "borderWidth": 3
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "description": "视频节点，大小根据播放量调整"
+    },
+    "UP": {
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      },
+      "description": "UP主节点"
+    },
+    "Lecture": {
+      "shape": "diamond",
+      "size": 25,
+      "color": {
+        "background": "#FFD93D",
+        "border": "#F59E0B"
+      },
+      "font": {
+        "size": 14,
+        "color": "#000000",
+        "bold": true
+      },
+      "description": "讲座系列节点"
+    },
+    "Reference": {
+      "shape": "box",
+      "size": 20,
+      "color": {
+        "background": "#A78BFA",
+        "border": "#7C3AED"
+      },
+      "font": {
+        "size": 12,
+        "color": "#ffffff"
+      },
+      "description": "参考文献节点"
+    }
+  },
+  "edge_types": {
+    "video_to_up": {
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "description": "视频到UP主的关系"
+    },
+    "core_to_video": {
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "description": "核心主题到视频的关系"
+    },
+    "lecture_to_video": {
+      "color": "#FFD93D",
+      "width": 1.5,
+      "arrows": "to",
+      "dashes": true,
+      "smooth": {
+        "type": "continuous"
+      },
+      "description": "讲座系列到视频的关系"
+    },
+    "video_to_reference": {
+      "color": "#A78BFA",
+      "width": 1,
+      "arrows": "to",
+      "dashes": [5, 5],
+      "smooth": {
+        "type": "continuous"
+      },
+      "description": "视频到参考文献的关系"
+    }
+  },
+  "physics": {
+    "enabled": true,
+    "stabilization": {
+      "enabled": true,
+      "iterations": 200
+    },
+    "barnesHut": {
+      "gravitationalConstant": -8000,
+      "springConstant": 0.04,
+      "springLength": 95
+    }
+  },
+  "interaction": {
+    "hover": true,
+    "tooltipDelay": 200,
+    "hideEdgesOnDrag": true,
+    "zoomView": true,
+    "dragView": true
+  },
+  "layout": {
+    "randomSeed": 42,
+    "improvedLayout": true
+  }
+}

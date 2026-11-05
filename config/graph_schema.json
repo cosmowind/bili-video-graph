@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "description": "B站视频关系图谱数据格式规范",
+  "schema": {
+    "nodes": {
+      "type": "array",
+      "description": "节点列表",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "group"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "节点唯一标识，视频使用BV号，UP主使用uid"
+          },
+          "label": {
+            "type": "string",
+            "description": "节点显示名称"
+          },
+          "group": {
+            "type": "string",
+            "enum": ["Core", "Video", "UP", "Lecture", "Reference"],
+            "description": "节点类型"
+          },
+          "title": {
+            "type": "string",
+            "description": "鼠标悬停提示信息"
+          },
+          "value": {
+            "type": "number",
+            "description": "节点大小权重（如播放量）"
+          },
+          "metadata": {
+            "type": "object",
+            "description": "节点元数据",
+            "properties": {
+              "play_count": {"type": "number"},
+              "like_count": {"type": "number"},
+              "coin_count": {"type": "number"},
+              "favorite_count": {"type": "number"},
+              "share_count": {"type": "number"},
+              "danmaku_count": {"type": "number"},
+              "comment_count": {"type": "number"},
+              "publish_date": {"type": "string"},
+              "duration": {"type": "number"},
+              "has_subtitle": {"type": "boolean"},
+              "desc": {"type": "string"},
+              "cover_url": {"type": "string"},
+              "up_name": {"type": "string"},
+              "up_mid": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "description": "边列表",
+      "items": {
+        "type": "object",
+        "required": ["from", "to"],
+        "properties": {
+          "from": {
+            "type": "string",
+            "description": "起始节点ID"
+          },
+          "to": {
+            "type": "string",
+            "description": "目标节点ID"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["video_to_up", "core_to_video", "lecture_to_video", "video_to_reference"],
+            "description": "边的类型"
+          },
+          "label": {
+            "type": "string",
+            "description": "边的标签（可选）"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "图谱元数据",
+      "properties": {
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "created_at": {"type": "string"},
+        "source": {"type": "string"},
+        "keyword": {"type": "string"},
+        "total_videos": {"type": "number"},
+        "total_ups": {"type": "number"},
+        "total_plays": {"type": "number"}
+      }
+    }
+  },
+  "example": {
+    "nodes": [
+      {
+        "id": "站桩",
+        "label": "站桩",
+        "group": "Core",
+        "title": "核心主题：站桩"
+      },
+      {
+        "id": "BV1234567890",
+        "label": "站桩入门教程",
+        "group": "Video",
+        "title": "播放: 10000",
+        "value": 10000,
+        "metadata": {
+          "play_count": 10000,
+          "like_count": 500,
+          "coin_count": 200,
+          "publish_date": "2024-01-01",
+          "has_subtitle": true,
+          "up_name": "示例UP主",
+          "up_mid": "123456"
+        }
+      },
+      {
+        "id": "UP_123456",
+        "label": "示例UP主",
+        "group": "UP",
+        "title": "UP主: 示例UP主"
+      }
+    ],
+    "edges": [
+      {
+        "from": "站桩",
+        "to": "BV1234567890",
+        "type": "core_to_video"
+      },
+      {
+        "from": "BV1234567890",
+        "to": "UP_123456",
+        "type": "video_to_up"
+      }
+    ],
+    "metadata": {
+      "title": "站桩视频关系图谱",
+      "keyword": "站桩",
+      "created_at": "2024-01-01T00:00:00Z",
+      "total_videos": 1,
+      "total_ups": 1,
+      "total_plays": 10000
+    }
+  }
+}

@@ -1,0 +1,2346 @@
+{
+  "nodes": [
+    {
+      "id": "站桩",
+      "label": "站桩",
+      "group": "Core",
+      "title": "核心主题：站桩",
+      "shape": "dot",
+      "size": 30,
+      "color": {
+        "background": "#FF6B6B",
+        "border": "#C92A2A"
+      },
+      "font": {
+        "size": 16,
+        "color": "#ffffff",
+        "bold": true
+      }
+    },
+    {
+      "id": "BV1aosrzQEdf",
+      "label": "黄庭站桩，提升精气神（张庆祥引导）",
+      "group": "Video",
+      "title": "黄庭站桩，提升精气神（张庆祥引导）\n播放: 5,427",
+      "shape": "dot",
+      "size": 28.751004173435817,
+      "value": 5427,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 5427,
+        "like_count": 47,
+        "coin_count": 8,
+        "favorite_count": 207,
+        "share_count": 69,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2025-10-26",
+        "duration": 1847,
+        "has_subtitle": false,
+        "desc": "nan",
+        "up_name": "徐小黄的正念空间",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_徐小黄的正念空间",
+      "label": "徐小黄的正念空间",
+      "group": "UP",
+      "title": "UP主: 徐小黄的正念空间",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1FzMfzgEmo",
+      "label": "练习站桩结束后的正确收功方法",
+      "group": "Video",
+      "title": "练习站桩结束后的正确收功方法\n播放: 6,242",
+      "shape": "dot",
+      "size": 29.077525851712224,
+      "value": 6242,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 6242,
+        "like_count": 343,
+        "coin_count": 11,
+        "favorite_count": 597,
+        "share_count": 61,
+        "danmaku_count": 2,
+        "comment_count": 0,
+        "publish_date": "2025-07-13",
+        "duration": 100,
+        "has_subtitle": false,
+        "desc": "视频来源于今日头条",
+        "up_name": "传武太极",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_传武太极",
+      "label": "传武太极",
+      "group": "UP",
+      "title": "UP主: 传武太极",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1ML3rzCExS",
+      "label": "🔥零基础也能学！每天10分钟站桩，打通气...",
+      "group": "Video",
+      "title": "🔥零基础也能学！每天10分钟站桩，打通气血｜新手跟练版，从入门到上瘾的秘诀全在这！\n播放: 2,281",
+      "shape": "dot",
+      "size": 26.728437289108,
+      "value": 2281,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 2281,
+        "like_count": 86,
+        "coin_count": 10,
+        "favorite_count": 152,
+        "share_count": 32,
+        "danmaku_count": 1,
+        "comment_count": 0,
+        "publish_date": "2025-07-07",
+        "duration": 286,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "武敏太极",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_武敏太极",
+      "label": "武敏太极",
+      "group": "UP",
+      "title": "UP主: 武敏太极",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1ne41137vc",
+      "label": "站桩的奥秘，先了解，再体会，从这里开始逐...",
+      "group": "Video",
+      "title": "站桩的奥秘，先了解，再体会，从这里开始逐步走入桩的妙境\n播放: 195,432",
+      "shape": "dot",
+      "size": 37.11570216771907,
+      "value": 195432,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 195432,
+        "like_count": 5987,
+        "coin_count": 1155,
+        "favorite_count": 13430,
+        "share_count": 3948,
+        "danmaku_count": 138,
+        "comment_count": 0,
+        "publish_date": "2022-09-06",
+        "duration": 652,
+        "has_subtitle": false,
+        "desc": "httpswww.youtube.comwat",
+        "up_name": "鱼蓼蓼",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_鱼蓼蓼",
+      "label": "鱼蓼蓼",
+      "group": "UP",
+      "title": "UP主: 鱼蓼蓼",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV12F411r7Jo",
+      "label": "新手必看！从零开始，轻松掌握站桩的窍门与...",
+      "group": "Video",
+      "title": "新手必看！从零开始，轻松掌握站桩的窍门与技巧！\n播放: 250,427",
+      "shape": "dot",
+      "size": 37.69445869737991,
+      "value": 250427,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#38A169",
+        "borderWidth": 3
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 250427,
+        "like_count": 11630,
+        "coin_count": 3345,
+        "favorite_count": 18954,
+        "share_count": 2924,
+        "danmaku_count": 89,
+        "comment_count": 0,
+        "publish_date": "2023-08-28",
+        "duration": 346,
+        "has_subtitle": true,
+        "desc": "站桩即身体如木桩站立不动，目的在于如木桩有根稳定，而非不动傻站。是中国武术体系中的一个重要组成部分。在历代武术流派中受到武者的重视，在武当拳种中，就将其作为一种基础性训练。\nhttps://www.y",
+        "up_name": "武当凌云",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_武当凌云",
+      "label": "武当凌云",
+      "group": "UP",
+      "title": "UP主: 武当凌云",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1TM4y1N7oR",
+      "label": "每天站桩10分钟，充盈全身气血，增强体力...",
+      "group": "Video",
+      "title": "每天站桩10分钟，充盈全身气血，增强体力养心神\n播放: 11,320",
+      "shape": "dot",
+      "size": 30.466796749577757,
+      "value": 11320,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 11320,
+        "like_count": 161,
+        "coin_count": 17,
+        "favorite_count": 299,
+        "share_count": 182,
+        "danmaku_count": 5,
+        "comment_count": 0,
+        "publish_date": "2021-07-24",
+        "duration": 256,
+        "has_subtitle": false,
+        "desc": "YouTube\n徐文兵老师提到过多次站桩的好处，也有好多粉丝小伙伴提出了要学习下站桩，这里找到个站桩的视频，大家可以尝试着练一下",
+        "up_name": "宙斯鱼",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_宙斯鱼",
+      "label": "宙斯鱼",
+      "group": "UP",
+      "title": "UP主: 宙斯鱼",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1BE411n7gV",
+      "label": "武当凌云道长详解站桩，百练不如一站，站桩...",
+      "group": "Video",
+      "title": "武当凌云道长详解站桩，百练不如一站，站桩三十分钟，除去身体病痛。\n播放: 575,998",
+      "shape": "dot",
+      "size": 39.63863610998002,
+      "value": 575998,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 575998,
+        "like_count": 13473,
+        "coin_count": 2340,
+        "favorite_count": 25899,
+        "share_count": 9993,
+        "danmaku_count": 467,
+        "comment_count": 0,
+        "publish_date": "2020-02-28",
+        "duration": 290,
+        "has_subtitle": false,
+        "desc": "好看视频",
+        "up_name": "长气玄青",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_长气玄青",
+      "label": "长气玄青",
+      "group": "UP",
+      "title": "UP主: 长气玄青",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1QRZiBeEcu",
+      "label": "站桩站多久合适，千万别熬桩！#站桩 #站...",
+      "group": "Video",
+      "title": "站桩站多久合适，千万别熬桩！#站桩 #站桩教学 #站桩养生 #居家锻炼\n播放: 362",
+      "shape": "dot",
+      "size": 22.43736156589496,
+      "value": 362,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 362,
+        "like_count": 12,
+        "coin_count": 0,
+        "favorite_count": 12,
+        "share_count": 2,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-02-19",
+        "duration": 72,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "站桩冥想施老师",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_站桩冥想施老师",
+      "label": "站桩冥想施老师",
+      "group": "UP",
+      "title": "UP主: 站桩冥想施老师",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1PCfTBVEUg",
+      "label": "站桩不能瞎站，教你正确站桩#站桩 #站桩...",
+      "group": "Video",
+      "title": "站桩不能瞎站，教你正确站桩#站桩 #站桩教学 #站桩养生 #居家锻炼\n播放: 269",
+      "shape": "dot",
+      "size": 21.746503698176188,
+      "value": 269,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 269,
+        "like_count": 2,
+        "coin_count": 0,
+        "favorite_count": 1,
+        "share_count": 0,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-02-23",
+        "duration": 70,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "形气神静修施元之",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_形气神静修施元之",
+      "label": "形气神静修施元之",
+      "group": "UP",
+      "title": "UP主: 形气神静修施元之",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1hS421A7eD",
+      "label": "【自用】站桩 道家混元桩20min",
+      "group": "Video",
+      "title": "【自用】站桩 道家混元桩20min\n播放: 11,107",
+      "shape": "dot",
+      "size": 30.422462659212293,
+      "value": 11107,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 11107,
+        "like_count": 90,
+        "coin_count": 28,
+        "favorite_count": 300,
+        "share_count": 107,
+        "danmaku_count": 1,
+        "comment_count": 0,
+        "publish_date": "2024-03-01",
+        "duration": 1239,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "bili_33707429608",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_bili_33707429608",
+      "label": "bili_33707429608",
+      "group": "UP",
+      "title": "UP主: bili_33707429608",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1fWcvz2EEo",
+      "label": "站桩带练 每天10分钟，身体结实下盘稳了",
+      "group": "Video",
+      "title": "站桩带练 每天10分钟，身体结实下盘稳了\n播放: 753",
+      "shape": "dot",
+      "size": 24.14358623379566,
+      "value": 753,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 753,
+        "like_count": 19,
+        "coin_count": 0,
+        "favorite_count": 38,
+        "share_count": 5,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-02-26",
+        "duration": 215,
+        "has_subtitle": false,
+        "desc": "nan",
+        "up_name": "甘草慧养青阳子八段锦",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_甘草慧养青阳子八段锦",
+      "label": "甘草慧养青阳子八段锦",
+      "group": "UP",
+      "title": "UP主: 甘草慧养青阳子八段锦",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1qa4y1m7zp",
+      "label": "15分钟站桩跟练版，提升精气。2024全...",
+      "group": "Video",
+      "title": "15分钟站桩跟练版，提升精气。2024全年元气满满，干啥都能成！养生搭子快快来这里打卡\n播放: 149,747",
+      "shape": "dot",
+      "size": 36.4942079868174,
+      "value": 149747,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 149747,
+        "like_count": 2918,
+        "coin_count": 396,
+        "favorite_count": 7296,
+        "share_count": 2257,
+        "danmaku_count": 31,
+        "comment_count": 0,
+        "publish_date": "2024-01-10",
+        "duration": 860,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "小侯的田园生活",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_小侯的田园生活",
+      "label": "小侯的田园生活",
+      "group": "UP",
+      "title": "UP主: 小侯的田园生活",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1CN411M7UH",
+      "label": "有好多师傅就算会都未必肯教的站桩秘诀",
+      "group": "Video",
+      "title": "有好多师傅就算会都未必肯教的站桩秘诀\n播放: 7,315",
+      "shape": "dot",
+      "size": 29.447725640379044,
+      "value": 7315,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 7315,
+        "like_count": 555,
+        "coin_count": 59,
+        "favorite_count": 767,
+        "share_count": 41,
+        "danmaku_count": 1,
+        "comment_count": 0,
+        "publish_date": "2023-11-13",
+        "duration": 186,
+        "has_subtitle": false,
+        "desc": "有好多师傅就算会都未必肯教的站桩秘诀",
+        "up_name": "正气站桩学堂",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_正气站桩学堂",
+      "label": "正气站桩学堂",
+      "group": "UP",
+      "title": "UP主: 正气站桩学堂",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV16qtZznE4G",
+      "label": "9分钟吃透站桩",
+      "group": "Video",
+      "title": "9分钟吃透站桩\n播放: 1,585",
+      "shape": "dot",
+      "size": 25.879194099399605,
+      "value": 1585,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 1585,
+        "like_count": 65,
+        "coin_count": 7,
+        "favorite_count": 110,
+        "share_count": 19,
+        "danmaku_count": 1,
+        "comment_count": 0,
+        "publish_date": "2025-08-12",
+        "duration": 550,
+        "has_subtitle": false,
+        "desc": "视频来源于网络，如有侵权请联系删除。",
+        "up_name": "传武太极",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "BV1ha41137RJ",
+      "label": "每天一万步和站桩一小时？哪个更能锻炼身体...",
+      "group": "Video",
+      "title": "每天一万步和站桩一小时？哪个更能锻炼身体！\n播放: 43,040",
+      "shape": "dot",
+      "size": 33.584012880194116,
+      "value": 43040,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 43040,
+        "like_count": 781,
+        "coin_count": 62,
+        "favorite_count": 733,
+        "share_count": 666,
+        "danmaku_count": 44,
+        "comment_count": 0,
+        "publish_date": "2022-09-05",
+        "duration": 94,
+        "has_subtitle": false,
+        "desc": "nan",
+        "up_name": "中医侦探",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_中医侦探",
+      "label": "中医侦探",
+      "group": "UP",
+      "title": "UP主: 中医侦探",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1B1b3zpEnz",
+      "label": "民间高手讲解站桩的核心要领",
+      "group": "Video",
+      "title": "民间高手讲解站桩的核心要领\n播放: 13,197",
+      "shape": "dot",
+      "size": 30.824866065126223,
+      "value": 13197,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 13197,
+        "like_count": 753,
+        "coin_count": 105,
+        "favorite_count": 1560,
+        "share_count": 256,
+        "danmaku_count": 6,
+        "comment_count": 0,
+        "publish_date": "2025-08-11",
+        "duration": 671,
+        "has_subtitle": false,
+        "desc": "视频来源于今日头条",
+        "up_name": "传武太极",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "BV1QGwXeaEeA",
+      "label": "站桩 戴师嗣口令",
+      "group": "Video",
+      "title": "站桩 戴师嗣口令\n播放: 3,574",
+      "shape": "dot",
+      "size": 27.776258455508106,
+      "value": 3574,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 3574,
+        "like_count": 31,
+        "coin_count": 2,
+        "favorite_count": 152,
+        "share_count": 54,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2025-02-17",
+        "duration": 2076,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "上海-珊珊",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_上海-珊珊",
+      "label": "上海-珊珊",
+      "group": "UP",
+      "title": "UP主: 上海-珊珊",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1VGAZz3EN3",
+      "label": "2分钟学会收功，站桩练通要过2点1关",
+      "group": "Video",
+      "title": "2分钟学会收功，站桩练通要过2点1关\n播放: 32",
+      "shape": "dot",
+      "size": 16.84036205135896,
+      "value": 32,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 32,
+        "like_count": 1,
+        "coin_count": 0,
+        "favorite_count": 0,
+        "share_count": 0,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-03-04",
+        "duration": 87,
+        "has_subtitle": false,
+        "desc": "2分钟学会收功，站桩练通要过2点1关\u000b#站桩健身 #站桩培训 #站桩练通 #浑圆桩 #站桩养生 #练通 #珠海站桩培训 #深圳站桩培训 #广州站桩培训 #杭州站桩培训",
+        "up_name": "天惠书院",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_天惠书院",
+      "label": "天惠书院",
+      "group": "UP",
+      "title": "UP主: 天惠书院",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1Z64y1N7ut",
+      "label": "站桩|浑圆桩15分钟口令跟练版",
+      "group": "Video",
+      "title": "站桩|浑圆桩15分钟口令跟练版\n播放: 11,396",
+      "shape": "dot",
+      "size": 30.482413841644732,
+      "value": 11396,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 11396,
+        "like_count": 130,
+        "coin_count": 10,
+        "favorite_count": 348,
+        "share_count": 228,
+        "danmaku_count": 1,
+        "comment_count": 0,
+        "publish_date": "2024-01-07",
+        "duration": 882,
+        "has_subtitle": false,
+        "desc": "站桩是冥想和“气”的结合体，不仅凝神静气，集中注意力，放松身体和关节，还促进身体内循环和气血流动。\n调整形（身形），调息（呼吸），调心（意识）",
+        "up_name": "极生美悟",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_极生美悟",
+      "label": "极生美悟",
+      "group": "UP",
+      "title": "UP主: 极生美悟",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV15pdyYwEY6",
+      "label": "不传之秘—站桩",
+      "group": "Video",
+      "title": "不传之秘—站桩\n播放: 9,345",
+      "shape": "dot",
+      "size": 30.019318419897875,
+      "value": 9345,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 9345,
+        "like_count": 237,
+        "coin_count": 35,
+        "favorite_count": 659,
+        "share_count": 92,
+        "danmaku_count": 5,
+        "comment_count": 0,
+        "publish_date": "2025-04-11",
+        "duration": 900,
+        "has_subtitle": false,
+        "desc": "本视频来源于今日头条，如有侵权请联系删除！",
+        "up_name": "传武太极",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "BV1UVPNzXEkA",
+      "label": "站桩的不同",
+      "group": "Video",
+      "title": "站桩的不同\n播放: 77",
+      "shape": "dot",
+      "size": 18.84818370999144,
+      "value": 77,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 77,
+        "like_count": 2,
+        "coin_count": 0,
+        "favorite_count": 3,
+        "share_count": 0,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-03-04",
+        "duration": 111,
+        "has_subtitle": false,
+        "desc": "#修行#练气#元气激活#站桩的不同",
+        "up_name": "元气激活-无忌",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_元气激活-无忌",
+      "label": "元气激活-无忌",
+      "group": "UP",
+      "title": "UP主: 元气激活-无忌",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1PYmnYZE1B",
+      "label": "坚持每天站桩15分钟，提升精气神，滋养脾...",
+      "group": "Video",
+      "title": "坚持每天站桩15分钟，提升精气神，滋养脾胃，调理气血，坚持打卡哦！\n播放: 2,507",
+      "shape": "dot",
+      "size": 26.948857062853,
+      "value": 2507,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 2507,
+        "like_count": 30,
+        "coin_count": 1,
+        "favorite_count": 51,
+        "share_count": 26,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2024-10-15",
+        "duration": 909,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "牛牛妈带你瘦",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_牛牛妈带你瘦",
+      "label": "牛牛妈带你瘦",
+      "group": "UP",
+      "title": "UP主: 牛牛妈带你瘦",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1SVZeB9EEX",
+      "label": "站桩   太极桩、无极桩站姿、意守等注意...",
+      "group": "Video",
+      "title": "站桩   太极桩、无极桩站姿、意守等注意事项（上）\n播放: 1,561",
+      "shape": "dot",
+      "size": 25.843603116172247,
+      "value": 1561,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 1561,
+        "like_count": 149,
+        "coin_count": 17,
+        "favorite_count": 351,
+        "share_count": 22,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-02-20",
+        "duration": 784,
+        "has_subtitle": false,
+        "desc": "120723 №10088 太极桩略讲（上）",
+        "up_name": "不动心1",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_不动心1",
+      "label": "不动心1",
+      "group": "UP",
+      "title": "UP主: 不动心1",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1iMPFzQEPv",
+      "label": "（全223讲）导引站桩·年度综合课（最新...",
+      "group": "Video",
+      "title": "（全223讲）导引站桩·年度综合课（最新版元气导引养元站桩课）\n播放: 20",
+      "shape": "dot",
+      "size": 15.785369972736973,
+      "value": 20,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 20,
+        "like_count": 0,
+        "coin_count": 0,
+        "favorite_count": 1,
+        "share_count": 0,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-03-04",
+        "duration": 288445,
+        "has_subtitle": false,
+        "desc": "nan",
+        "up_name": "小鹿智学",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_小鹿智学",
+      "label": "小鹿智学",
+      "group": "UP",
+      "title": "UP主: 小鹿智学",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1Nr42137XZ",
+      "label": "站桩进阶版60分钟跟练版，此站桩视频太长...",
+      "group": "Video",
+      "title": "站桩进阶版60分钟跟练版，此站桩视频太长，请量力而行\n播放: 12,793",
+      "shape": "dot",
+      "size": 30.752300313514006,
+      "value": 12793,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 12793,
+        "like_count": 129,
+        "coin_count": 17,
+        "favorite_count": 508,
+        "share_count": 211,
+        "danmaku_count": 2,
+        "comment_count": 0,
+        "publish_date": "2024-04-23",
+        "duration": 3602,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "极生美悟",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "BV1ipAozyETe",
+      "label": "站桩最重要的两个充电器要插好。#站桩 #...",
+      "group": "Video",
+      "title": "站桩最重要的两个充电器要插好。#站桩 #骨正筋柔 #浑圆桩\n播放: 282",
+      "shape": "dot",
+      "size": 21.856266022557946,
+      "value": 282,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 282,
+        "like_count": 12,
+        "coin_count": 4,
+        "favorite_count": 3,
+        "share_count": 1,
+        "danmaku_count": 1,
+        "comment_count": 0,
+        "publish_date": "2026-03-03",
+        "duration": 339,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "衡恒1893",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_衡恒1893",
+      "label": "衡恒1893",
+      "group": "UP",
+      "title": "UP主: 衡恒1893",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1G5jgzrEUF",
+      "label": "说一个从整体下手纠正全身体态的基础操作｜...",
+      "group": "Video",
+      "title": "说一个从整体下手纠正全身体态的基础操作｜附理论依据+动作详解\n播放: 672,446",
+      "shape": "dot",
+      "size": 40.0,
+      "value": 672446,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 672446,
+        "like_count": 31926,
+        "coin_count": 3952,
+        "favorite_count": 63127,
+        "share_count": 2104,
+        "danmaku_count": 174,
+        "comment_count": 0,
+        "publish_date": "2025-05-25",
+        "duration": 188,
+        "has_subtitle": false,
+        "desc": "🌟为了保证内容的严谨再补充一下，「站桩」对于有体态问题的人群来说可以从整体下手来“手动”（有意识）找回本体对位感和正确重心，但总是“手动”对位并不是长久之计，“自动”（无意识）对位才是。\n🌟所以，局部",
+        "up_name": "欧阳春晓Aurora",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_欧阳春晓Aurora",
+      "label": "欧阳春晓Aurora",
+      "group": "UP",
+      "title": "UP主: 欧阳春晓Aurora",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1xJPjzEEZS",
+      "label": "站桩收功的正确姿势",
+      "group": "Video",
+      "title": "站桩收功的正确姿势\n播放: 664",
+      "shape": "dot",
+      "size": 23.850407059463986,
+      "value": 664,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 664,
+        "like_count": 29,
+        "coin_count": 2,
+        "favorite_count": 46,
+        "share_count": 4,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-03-03",
+        "duration": 128,
+        "has_subtitle": false,
+        "desc": "nan",
+        "up_name": "张玉全天罡内炼",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_张玉全天罡内炼",
+      "label": "张玉全天罡内炼",
+      "group": "UP",
+      "title": "UP主: 张玉全天罡内炼",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1YzPvz7Eua",
+      "label": "线下研修课，系统学导引站桩",
+      "group": "Video",
+      "title": "线下研修课，系统学导引站桩\n播放: 66",
+      "shape": "dot",
+      "size": 18.49335810601121,
+      "value": 66,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 66,
+        "like_count": 2,
+        "coin_count": 0,
+        "favorite_count": 0,
+        "share_count": 0,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-03-04",
+        "duration": 39,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "站桩施元之",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_站桩施元之",
+      "label": "站桩施元之",
+      "group": "UP",
+      "title": "UP主: 站桩施元之",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1MRPjzsELe",
+      "label": "站桩的呼吸方法",
+      "group": "Video",
+      "title": "站桩的呼吸方法\n播放: 128",
+      "shape": "dot",
+      "size": 20.022492910203425,
+      "value": 128,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 128,
+        "like_count": 3,
+        "coin_count": 0,
+        "favorite_count": 10,
+        "share_count": 1,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-03-03",
+        "duration": 143,
+        "has_subtitle": false,
+        "desc": "nan",
+        "up_name": "张玉全说养生",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_张玉全说养生",
+      "label": "张玉全说养生",
+      "group": "UP",
+      "title": "UP主: 张玉全说养生",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1H2PPzGEFW",
+      "label": "揭露站桩真相",
+      "group": "Video",
+      "title": "揭露站桩真相\n播放: 14",
+      "shape": "dot",
+      "size": 15.0,
+      "value": 14,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 14,
+        "like_count": 0,
+        "coin_count": 0,
+        "favorite_count": 0,
+        "share_count": 0,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-03-04",
+        "duration": 101,
+        "has_subtitle": false,
+        "desc": "站桩的本质是练筋，女人万万不可站桩",
+        "up_name": "女丹功",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_女丹功",
+      "label": "女丹功",
+      "group": "UP",
+      "title": "UP主: 女丹功",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1LvijBcEaq",
+      "label": "站桩练习——引气归元桩",
+      "group": "Video",
+      "title": "站桩练习——引气归元桩\n播放: 596",
+      "shape": "dot",
+      "size": 23.598624616179517,
+      "value": 596,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 596,
+        "like_count": 9,
+        "coin_count": 2,
+        "favorite_count": 41,
+        "share_count": 15,
+        "danmaku_count": 0,
+        "comment_count": 0,
+        "publish_date": "2026-01-04",
+        "duration": 828,
+        "has_subtitle": false,
+        "desc": "李老师桩功教学",
+        "up_name": "淡泊并宁静",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_淡泊并宁静",
+      "label": "淡泊并宁静",
+      "group": "UP",
+      "title": "UP主: 淡泊并宁静",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "BV1uBHJzyEiC",
+      "label": "【站桩教程】百练不如一站！养气血，通经络...",
+      "group": "Video",
+      "title": "【站桩教程】百练不如一站！养气血，通经络，健身强体，调整体态\n播放: 26,905",
+      "shape": "dot",
+      "size": 32.487429600401,
+      "value": 26905,
+      "color": {
+        "background": "#4ECDC4",
+        "border": "#1E88E5"
+      },
+      "font": {
+        "size": 14,
+        "color": "#ffffff"
+      },
+      "metadata": {
+        "play_count": 26905,
+        "like_count": 1092,
+        "coin_count": 447,
+        "favorite_count": 1692,
+        "share_count": 209,
+        "danmaku_count": 108,
+        "comment_count": 0,
+        "publish_date": "2025-10-01",
+        "duration": 604,
+        "has_subtitle": false,
+        "desc": "-",
+        "up_name": "健身教练Duke",
+        "up_mid": ""
+      }
+    },
+    {
+      "id": "UP_健身教练Duke",
+      "label": "健身教练Duke",
+      "group": "UP",
+      "title": "UP主: 健身教练Duke",
+      "shape": "dot",
+      "size": 20,
+      "color": {
+        "background": "#95E1D3",
+        "border": "#38A169"
+      },
+      "font": {
+        "size": 13,
+        "color": "#ffffff"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "站桩",
+      "to": "BV1aosrzQEdf",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1aosrzQEdf",
+      "to": "UP_徐小黄的正念空间",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1FzMfzgEmo",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1FzMfzgEmo",
+      "to": "UP_传武太极",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1ML3rzCExS",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1ML3rzCExS",
+      "to": "UP_武敏太极",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1ne41137vc",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1ne41137vc",
+      "to": "UP_鱼蓼蓼",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV12F411r7Jo",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV12F411r7Jo",
+      "to": "UP_武当凌云",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1TM4y1N7oR",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1TM4y1N7oR",
+      "to": "UP_宙斯鱼",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1BE411n7gV",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1BE411n7gV",
+      "to": "UP_长气玄青",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1QRZiBeEcu",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1QRZiBeEcu",
+      "to": "UP_站桩冥想施老师",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1PCfTBVEUg",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1PCfTBVEUg",
+      "to": "UP_形气神静修施元之",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1hS421A7eD",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1hS421A7eD",
+      "to": "UP_bili_33707429608",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1fWcvz2EEo",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1fWcvz2EEo",
+      "to": "UP_甘草慧养青阳子八段锦",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1qa4y1m7zp",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1qa4y1m7zp",
+      "to": "UP_小侯的田园生活",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1CN411M7UH",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1CN411M7UH",
+      "to": "UP_正气站桩学堂",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV16qtZznE4G",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV16qtZznE4G",
+      "to": "UP_传武太极",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1ha41137RJ",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1ha41137RJ",
+      "to": "UP_中医侦探",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1B1b3zpEnz",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1B1b3zpEnz",
+      "to": "UP_传武太极",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1QGwXeaEeA",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1QGwXeaEeA",
+      "to": "UP_上海-珊珊",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1VGAZz3EN3",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1VGAZz3EN3",
+      "to": "UP_天惠书院",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1Z64y1N7ut",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1Z64y1N7ut",
+      "to": "UP_极生美悟",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV15pdyYwEY6",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV15pdyYwEY6",
+      "to": "UP_传武太极",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1UVPNzXEkA",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1UVPNzXEkA",
+      "to": "UP_元气激活-无忌",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1PYmnYZE1B",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1PYmnYZE1B",
+      "to": "UP_牛牛妈带你瘦",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1SVZeB9EEX",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1SVZeB9EEX",
+      "to": "UP_不动心1",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1iMPFzQEPv",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1iMPFzQEPv",
+      "to": "UP_小鹿智学",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1Nr42137XZ",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1Nr42137XZ",
+      "to": "UP_极生美悟",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1ipAozyETe",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1ipAozyETe",
+      "to": "UP_衡恒1893",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1G5jgzrEUF",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1G5jgzrEUF",
+      "to": "UP_欧阳春晓Aurora",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1xJPjzEEZS",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1xJPjzEEZS",
+      "to": "UP_张玉全天罡内炼",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1YzPvz7Eua",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1YzPvz7Eua",
+      "to": "UP_站桩施元之",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1MRPjzsELe",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1MRPjzsELe",
+      "to": "UP_张玉全说养生",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1H2PPzGEFW",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1H2PPzGEFW",
+      "to": "UP_女丹功",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1LvijBcEaq",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1LvijBcEaq",
+      "to": "UP_淡泊并宁静",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "站桩",
+      "to": "BV1uBHJzyEiC",
+      "type": "core_to_video",
+      "color": "#FF6B6B",
+      "width": 2,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    },
+    {
+      "from": "BV1uBHJzyEiC",
+      "to": "UP_健身教练Duke",
+      "type": "video_to_up",
+      "color": "#999999",
+      "width": 1,
+      "arrows": "to",
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false
+    }
+  ],
+  "metadata": {
+    "title": "站桩视频关系图谱",
+    "description": "基于B站搜索关键词\"站桩\"的视频关系可视化",
+    "created_at": "2026-03-04T19:33:17.725936",
+    "source": "bilibili",
+    "keyword": "站桩",
+    "total_videos": 33,
+    "total_ups": 29,
+    "total_plays": 2016908
+  }
+}

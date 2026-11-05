@@ -1,0 +1,4 @@
+bv_id,title,up_name,publish_date,play_count,coin_count,duration,has_subtitle
+BV1234567890,示例视频1,UP主A,2024-01-01,10000,500,3600,是
+BV0987654321,示例视频2,UP主B,2024-01-02,20000,800,4200,否
+BV1111111111,示例视频3,UP主A,2024-01-03,15000,600,3000,是
